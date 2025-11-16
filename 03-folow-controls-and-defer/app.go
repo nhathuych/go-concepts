@@ -14,4 +14,13 @@ func main() {
 
 	printGreeting()
 	fmt.Println()
+
+	fmt.Println("------------ Defer ------------")
+	fmt.Println()
+
+	testDeferOrder()
+	fmt.Println()
+
+	readFile()
+	fmt.Println()
 }
